@@ -1,11 +1,11 @@
-# OnePush使用指南  
+# onepush使用指南  
 ### ！不适合0基础小白  
 
 ## 项目地址：  
-[OnePush](https://github.com/y1ndan/onepush)  
+[onepush](https://github.com/y1ndan/onepush)  
 支持 Bark App、酷推、钉钉机器人、Discord、iGot聚合推送、pushplus、Server酱、Telegram robot、企业微信应用、企业微信机器人和自定义推送  
 
-## OnePush推送参数一览  
+## onepush推送参数一览  
 - 推送名称 / notifier: bark  
 参数大全 / params:  
 {'required': ['key'], 'optional': ['title', 'content', 'sound', 'isarchive', 'icon', 'group', 'url', 'copy', 'autocopy']}  
@@ -52,8 +52,8 @@
   
 - 例子  
 telegram  
-ONEPUSH={"notifier":"telegram","params":{"markdown":false,"token":"xxxx","userid":"xxx"}}  
+onepush={"notifier":"telegram","params":{"markdown":false,"token":"xxxx","userid":"xxx"}}  
 discord  
-ONEPUSH={"notifier":"discord","params":{"markdown":true,"webhook":"https://discord.com/api/webhooks/xxxxxx"}}  
+onepush={"notifier":"discord","params":{"markdown":true,"webhook":"https://discord.com/api/webhooks/xxxxxx"}}  
   
 #### 注：markdown参数设置为True可优化推送消息排版  
