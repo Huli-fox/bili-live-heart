@@ -31,7 +31,6 @@
 ## 详细文档！请仔细阅读！
 如果文档没更新，请尝试`Ctrl` + `F5` 刷新网页  
 👉[文档](https://xiaomiku01.github.io/bili-live-heart/)  
-👉[OnePush使用指南](https://github.com/Huli-fox/bili-live-heart/blob/dev/docs/Guide/OnePush.md)  
 
 ## 遇到问题？  
  先去看文档——>《常见问题》 没有？再去看issue  
