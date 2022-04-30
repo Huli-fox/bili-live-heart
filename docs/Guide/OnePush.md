@@ -56,4 +56,4 @@ onepush={"notifier":"telegram","params":{"markdown":false,"token":"xxxx","userid
 discord  
 onepush={"notifier":"discord","params":{"markdown":true,"webhook":"https://discord.com/api/webhooks/xxxxxx"}}  
   
-#### 注：markdown参数设置为True可优化推送消息排版  
+#### 注：markdown参数设置为true可优化推送消息排版  
