@@ -51,9 +51,9 @@
 {'required': ['key'], 'optional': ['title', 'content', 'markdown']}  
   
 - 例子  
-telegram  
-onepush={"notifier":"telegram","params":{"markdown":false,"token":"xxxx","userid":"xxx"}}  
-discord  
-onepush={"notifier":"discord","params":{"markdown":true,"webhook":"https://discord.com/api/webhooks/xxxxxx"}}  
+**Telegram**  
+onepush={"notifier":"telegram","params":{"markdown":False,"token":"xxxx","userid":"xxx"}}  
+**Discord**  
+onepush={"notifier":"discord","params":{"markdown":True,"webhook":"https://discord.com/api/webhooks/xxxxxx"}}  
   
-#### 注：markdown参数设置为true可优化推送消息排版  
+**注：markdown参数设置为True可优化推送消息排版（True/False首字母需大写）**  
