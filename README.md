@@ -7,7 +7,7 @@
 > 开始使用前，请确保您已经安装了Python运行环境（不低于3.7），并且已经理解[OnePush使用指南](https://github.com/Huli-fox/bili-live-heart/blob/dev/docs/Guide/OnePush.md)。  
 
 - ### 本地部署  
-> 运行环境Windows10，Python3.7.9  
+  > 运行环境Windows10，Python3.7.9  
   
   #### 1.下载程序  
   到[这里](https://github.com/Huli-fox/bili-live-heart/releases/)下载最新版本的Source code (zip)，并解压至不含中文的路径  
@@ -44,10 +44,21 @@
   python index.py  
   
 - ### 云函数部署  
-见[原版文档](https://xiaomiku01.github.io/bili-live-heart/TencentCloud/)，把环境变量sendkey改成onepush，然后按照[这个](https://github.com/Huli-fox/bili-live-heart/blob/dev/docs/Guide/OnePush.md)配置就好了  
-注意下onepush环境变量是**必填**的，要不然云函数报错  
+  见[原版文档](https://xiaomiku01.github.io/bili-live-heart/TencentCloud/)，把环境变量sendkey改成onepush，然后按照[这个](https://github.com/Huli-fox/bili-live-heart/blob/dev/docs/Guide/OnePush.md)配置就好了  
+  注意下onepush环境变量是**必填**的，要不然云函数报错  
+  
+- ### Docker  
+  见原版文档，[配置用户信息](https://xiaomiku01.github.io/bili-live-heart/LocalDocker/#_2-2-%E9%85%8D%E7%BD%AE%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF)时：  
+  > SERVER_CHAN_SENDKEY=""  
+  
+  改成  
+  > ONEPUSH=""  
+  
+  就行了（大概），如果报错把双引号改成单引号试试（没用过Docker，相关问题无法回答，见谅）
   
 ## 附言  
+**5.2**  
+增加了Docker支持，不保证能正常运行  
 **4.30**  
 修正了文档中的一个错误  
 能力有限，问题可能没法都解决，多见谅（

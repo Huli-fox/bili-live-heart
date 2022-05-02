@@ -62,7 +62,7 @@ def main():
 if __name__ == "__main__":
     if "--fromdocker" in sys.argv:
         config = {"users": [{"cookie": os.environ["COOKIE"], "ruid":int(os.environ["RUID"])}], "cron": {
-            "cron": os.environ["CRON"]}, "serverchan": {"sendkey": os.environ["SERVER_CHAN_SENDKEY"]}}
+            "cron": os.environ["CRON"]}, "onepush": {"onepush": os.environ["ONEPUSH"]}}
     else:
         import toml
         config = toml.load("user.toml")

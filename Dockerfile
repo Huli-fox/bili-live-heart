@@ -3,7 +3,7 @@ FROM python:3.7-slim-stretch
 ENV COOKIE=""
 ENV RUID="0"
 ENV CRON="0 0 * * *"
-ENV SERVER_CHAN_SENDKEY=""
+ENV ONEPUSH=""
 ENV TZ="Asia/Shanghai"
 
 RUN sed -i 's/deb.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list && \
