@@ -5,7 +5,7 @@ import logging
 import aiohttp
 from .api import WebApi, WebApiRequestError
 
-__VERSION__ = "1.2.0"
+__VERSION__ = "1.2.2"
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
@@ -99,13 +99,13 @@ class BiliUser:
                     login_data["data"]["uname"], login_data["data"]["mid"]
                 )
             )
-            logger.info("本脚本使用条件：必须关注A-SOUL五人B站账号!")
-            tem = await WebApi.secret_player(self.session)
-            if tem:
-                message = f"本脚本使用条件：必须关注A-SOUL五人B站账号! 检测到你还没有关注：{'、'.join(tem)} ,请关注后再来使用"
-                logger.error(message)
-                self.message_err.append(message)
-                raise Exception(message)
+            # logger.info("本脚本使用条件：必须关注A-SOUL五人B站账号!")
+            # tem = await WebApi.secret_player(self.session)
+            # if tem:
+            #     message = f"本脚本使用条件：必须关注A-SOUL五人B站账号! 检测到你还没有关注：{'、'.join(tem)} ,请关注后再来使用"
+            #     logger.error(message)
+            #     self.message_err.append(message)
+            #     raise Exception(message)
             try:
                 sign = await WebApi.do_sign(self.session)
                 message = f"直播区签到成功(本月签到天数:{sign['hadSignDays']}/{sign['allDays']})"
