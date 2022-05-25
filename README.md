@@ -1,5 +1,8 @@
 # Bilibili粉丝牌助手  
-# [BAD NEWS](https://github.com/XiaoMiku01/bili-live-heart#%E5%AE%98%E6%96%B9%E5%85%AC%E5%91%8A)
+  
+# 此版本已失效  
+  ## 新版仓库 [XiaoMiku01/fansMedalHelper](https://github.com/XiaoMiku01/fansMedalHelper)
+  
 ## 介绍  
 这个库增加了对其他推送方式的支持，依赖[onepush](https://github.com/y1ndan/onepush)  
 - [OnePush使用指南](https://github.com/Huli-fox/bili-live-heart/blob/dev/docs/Guide/OnePush.md)  
