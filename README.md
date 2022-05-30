@@ -1,7 +1,13 @@
+<div align="center">
+<p align="center">
+<h1>此版本已失效</h1>
+ <h2>新版仓库[ XiaoMiku01/fansMedalHelper ](https://github.com/XiaoMiku01/fansMedalHelper)</h2>
+</p>
+ </div>  
+ 
+---  
+
 # Bilibili粉丝牌助手  
-  
-# 此版本已失效  
-  ## 新版仓库 [XiaoMiku01/fansMedalHelper](https://github.com/XiaoMiku01/fansMedalHelper)
   
 ## 介绍  
 这个库增加了对其他推送方式的支持，依赖[onepush](https://github.com/y1ndan/onepush)  
