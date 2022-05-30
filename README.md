@@ -1,7 +1,7 @@
 <div align="center">
 <p align="center">
 <h1>此版本已失效</h1>
- <h2>新版仓库[ XiaoMiku01/fansMedalHelper ](https://github.com/XiaoMiku01/fansMedalHelper)</h2>
+ <h2>新版仓库[ Huli-fox/fansMedalHelper ](https://github.com/Huli-fox/fansMedalHelper)</h2>
 </p>
  </div>  
  
